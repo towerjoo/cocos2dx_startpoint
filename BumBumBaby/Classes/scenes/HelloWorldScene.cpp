@@ -7,6 +7,7 @@
 //
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "UserManager.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -90,6 +91,10 @@ HelloWorld::HelloWorld()
     label->setPosition(ccp( s.width/2, s.height-50));
     
     scheduleUpdate();
+    
+    UserManager *manager = UserManager::sharedManager();
+    printf("#######score: %d", manager->score);
+    
 }
 
 HelloWorld::~HelloWorld()

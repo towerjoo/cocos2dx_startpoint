@@ -225,6 +225,7 @@
 		3C7249BD160725870086942F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7249B1160725870086942F /* Icon.png */; };
 		3C7249BE160725870086942F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7249B2160725870086942F /* Icon@2x.png */; };
 		3C7249C41607261D0086942F /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C7249C21607261D0086942F /* HelloWorldScene.cpp */; };
+		3C7249D116074A0B0086942F /* UserManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C7249D016074A0B0086942F /* UserManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -687,6 +688,8 @@
 		3C7249B2160725870086942F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/images/Icon@2x.png"; sourceTree = "<group>"; };
 		3C7249C21607261D0086942F /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/scenes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		3C7249C31607261D0086942F /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/scenes/HelloWorldScene.h; sourceTree = "<group>"; };
+		3C7249CF160749AA0086942F /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		3C7249D016074A0B0086942F /* UserManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserManager.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1674,6 +1677,8 @@
 		3C7249C61607263E0086942F /* manager */ = {
 			isa = PBXGroup;
 			children = (
+				3C7249CF160749AA0086942F /* UserManager.h */,
+				3C7249D016074A0B0086942F /* UserManager.cpp */,
 			);
 			name = manager;
 			sourceTree = "<group>";
@@ -1955,6 +1960,7 @@
 				3C724998160725190086942F /* RootViewController.mm in Sources */,
 				3C72499C160725190086942F /* AppDelegate.cpp in Sources */,
 				3C7249C41607261D0086942F /* HelloWorldScene.cpp in Sources */,
+				3C7249D116074A0B0086942F /* UserManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
