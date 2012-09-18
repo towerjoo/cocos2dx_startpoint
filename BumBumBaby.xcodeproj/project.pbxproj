@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2896971607FFF500229248 /* CommunicationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C2896911607FFF500229248 /* CommunicationManager.cpp */; };
+		3C2896981607FFF500229248 /* LocalStorageManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C2896931607FFF500229248 /* LocalStorageManager.cpp */; };
+		3C2896991607FFF500229248 /* UserManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C2896951607FFF500229248 /* UserManager.cpp */; };
+		3C28969D1608010B00229248 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C28969C1608010B00229248 /* data.json */; };
 		3C7246C7160725140086942F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7246C6160725140086942F /* QuartzCore.framework */; };
 		3C7246C9160725140086942F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7246C8160725140086942F /* OpenGLES.framework */; };
 		3C7246CB160725140086942F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7246CA160725140086942F /* OpenAL.framework */; };
@@ -225,10 +229,16 @@
 		3C7249BD160725870086942F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7249B1160725870086942F /* Icon.png */; };
 		3C7249BE160725870086942F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7249B2160725870086942F /* Icon@2x.png */; };
 		3C7249C41607261D0086942F /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C7249C21607261D0086942F /* HelloWorldScene.cpp */; };
-		3C7249D116074A0B0086942F /* UserManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C7249D016074A0B0086942F /* UserManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C2896911607FFF500229248 /* CommunicationManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CommunicationManager.cpp; path = Classes/manager/CommunicationManager.cpp; sourceTree = "<group>"; };
+		3C2896921607FFF500229248 /* CommunicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommunicationManager.h; path = Classes/manager/CommunicationManager.h; sourceTree = "<group>"; };
+		3C2896931607FFF500229248 /* LocalStorageManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LocalStorageManager.cpp; path = Classes/manager/LocalStorageManager.cpp; sourceTree = "<group>"; };
+		3C2896941607FFF500229248 /* LocalStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalStorageManager.h; path = Classes/manager/LocalStorageManager.h; sourceTree = "<group>"; };
+		3C2896951607FFF500229248 /* UserManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UserManager.cpp; path = Classes/manager/UserManager.cpp; sourceTree = "<group>"; };
+		3C2896961607FFF500229248 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserManager.h; path = Classes/manager/UserManager.h; sourceTree = "<group>"; };
+		3C28969C1608010B00229248 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = Resources/data/data.json; sourceTree = "<group>"; };
 		3C7246C2160725140086942F /* BumBumBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BumBumBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7246C6160725140086942F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3C7246C8160725140086942F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -688,8 +698,6 @@
 		3C7249B2160725870086942F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/images/Icon@2x.png"; sourceTree = "<group>"; };
 		3C7249C21607261D0086942F /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/scenes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		3C7249C31607261D0086942F /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/scenes/HelloWorldScene.h; sourceTree = "<group>"; };
-		3C7249CF160749AA0086942F /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
-		3C7249D016074A0B0086942F /* UserManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserManager.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -711,6 +719,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C28969B160800DD00229248 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				3C28969C1608010B00229248 /* data.json */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		3C7246B7160725140086942F = {
 			isa = PBXGroup;
 			children = (
@@ -758,6 +774,7 @@
 		3C7246D7160725140086942F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3C28969B160800DD00229248 /* data */,
 				3C7249C1160725B50086942F /* fonts */,
 				3C7249C0160725B00086942F /* sounds */,
 				3C7249BF1607259A0086942F /* images */,
@@ -1677,8 +1694,12 @@
 		3C7249C61607263E0086942F /* manager */ = {
 			isa = PBXGroup;
 			children = (
-				3C7249CF160749AA0086942F /* UserManager.h */,
-				3C7249D016074A0B0086942F /* UserManager.cpp */,
+				3C2896911607FFF500229248 /* CommunicationManager.cpp */,
+				3C2896921607FFF500229248 /* CommunicationManager.h */,
+				3C2896931607FFF500229248 /* LocalStorageManager.cpp */,
+				3C2896941607FFF500229248 /* LocalStorageManager.h */,
+				3C2896951607FFF500229248 /* UserManager.cpp */,
+				3C2896961607FFF500229248 /* UserManager.h */,
 			);
 			name = manager;
 			sourceTree = "<group>";
@@ -1755,6 +1776,7 @@
 				3C7249BC160725870086942F /* Icon-Small@2x.png in Resources */,
 				3C7249BD160725870086942F /* Icon.png in Resources */,
 				3C7249BE160725870086942F /* Icon@2x.png in Resources */,
+				3C28969D1608010B00229248 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1960,7 +1982,9 @@
 				3C724998160725190086942F /* RootViewController.mm in Sources */,
 				3C72499C160725190086942F /* AppDelegate.cpp in Sources */,
 				3C7249C41607261D0086942F /* HelloWorldScene.cpp in Sources */,
-				3C7249D116074A0B0086942F /* UserManager.cpp in Sources */,
+				3C2896971607FFF500229248 /* CommunicationManager.cpp in Sources */,
+				3C2896981607FFF500229248 /* LocalStorageManager.cpp in Sources */,
+				3C2896991607FFF500229248 /* UserManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2078,6 +2102,7 @@
 				3C7249A6160725190086942F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

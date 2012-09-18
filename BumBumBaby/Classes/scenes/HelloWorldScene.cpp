@@ -92,9 +92,6 @@ HelloWorld::HelloWorld()
     
     scheduleUpdate();
     
-    UserManager *manager = UserManager::sharedManager();
-    printf("#######score: %d", manager->score);
-    
 }
 
 HelloWorld::~HelloWorld()
