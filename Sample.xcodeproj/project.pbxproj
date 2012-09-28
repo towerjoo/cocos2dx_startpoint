@@ -231,6 +231,7 @@
 		3C7249C41607261D0086942F /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C7249C21607261D0086942F /* HelloWorldScene.cpp */; };
 		3CA731021615927D00229819 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA731001615927D00229819 /* GameScene.cpp */; };
 		3CA731061615928700229819 /* HomePageScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA731041615928700229819 /* HomePageScene.cpp */; };
+		3CA7310C1615994400229819 /* BaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7310B1615994400229819 /* BaseObject.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -705,6 +706,8 @@
 		3CA731041615928700229819 /* HomePageScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomePageScene.cpp; path = Classes/scenes/HomePageScene.cpp; sourceTree = "<group>"; };
 		3CA731051615928700229819 /* HomePageScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageScene.h; path = Classes/scenes/HomePageScene.h; sourceTree = "<group>"; };
 		3CA73108161592F600229819 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = Classes/constants/constants.h; sourceTree = "<group>"; };
+		3CA7310A1615993300229819 /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseObject.h; path = Classes/objects/BaseObject.h; sourceTree = "<group>"; };
+		3CA7310B1615994400229819 /* BaseObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseObject.cpp; path = Classes/objects/BaseObject.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1647,6 +1650,7 @@
 		3C724999160725190086942F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3CA731091615991B00229819 /* objects */,
 				3CA73107161592BE00229819 /* constants */,
 				3C7249C7160726480086942F /* helper */,
 				3C7249C61607263E0086942F /* manager */,
@@ -1729,6 +1733,15 @@
 				3CA73108161592F600229819 /* constants.h */,
 			);
 			name = constants;
+			sourceTree = "<group>";
+		};
+		3CA731091615991B00229819 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7310A1615993300229819 /* BaseObject.h */,
+				3CA7310B1615994400229819 /* BaseObject.cpp */,
+			);
+			name = objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2007,6 +2020,7 @@
 				3C2896991607FFF500229248 /* UserManager.cpp in Sources */,
 				3CA731021615927D00229819 /* GameScene.cpp in Sources */,
 				3CA731061615928700229819 /* HomePageScene.cpp in Sources */,
+				3CA7310C1615994400229819 /* BaseObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
