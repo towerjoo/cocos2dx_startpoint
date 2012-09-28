@@ -26,4 +26,8 @@ UserManager* UserManager::sharedManager(){
     return singleton;
 }
 
+void UserManager::gameOver(){
+    
+}
+
 

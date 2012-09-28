@@ -15,4 +15,5 @@ public:
     int score;
     void initManager();
     static UserManager *sharedManager();
+    void gameOver();
 };

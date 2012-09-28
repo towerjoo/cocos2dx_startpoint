@@ -229,6 +229,8 @@
 		3C7249BD160725870086942F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7249B1160725870086942F /* Icon.png */; };
 		3C7249BE160725870086942F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7249B2160725870086942F /* Icon@2x.png */; };
 		3C7249C41607261D0086942F /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C7249C21607261D0086942F /* HelloWorldScene.cpp */; };
+		3CA731021615927D00229819 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA731001615927D00229819 /* GameScene.cpp */; };
+		3CA731061615928700229819 /* HomePageScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA731041615928700229819 /* HomePageScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -698,6 +700,11 @@
 		3C7249B2160725870086942F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/images/Icon@2x.png"; sourceTree = "<group>"; };
 		3C7249C21607261D0086942F /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/scenes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		3C7249C31607261D0086942F /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/scenes/HelloWorldScene.h; sourceTree = "<group>"; };
+		3CA731001615927D00229819 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = Classes/scenes/GameScene.cpp; sourceTree = "<group>"; };
+		3CA731011615927D00229819 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Classes/scenes/GameScene.h; sourceTree = "<group>"; };
+		3CA731041615928700229819 /* HomePageScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomePageScene.cpp; path = Classes/scenes/HomePageScene.cpp; sourceTree = "<group>"; };
+		3CA731051615928700229819 /* HomePageScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageScene.h; path = Classes/scenes/HomePageScene.h; sourceTree = "<group>"; };
+		3CA73108161592F600229819 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = Classes/constants/constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1640,6 +1647,7 @@
 		3C724999160725190086942F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3CA73107161592BE00229819 /* constants */,
 				3C7249C7160726480086942F /* helper */,
 				3C7249C61607263E0086942F /* manager */,
 				3C7249C5160726250086942F /* scenes */,
@@ -1687,6 +1695,10 @@
 			children = (
 				3C7249C21607261D0086942F /* HelloWorldScene.cpp */,
 				3C7249C31607261D0086942F /* HelloWorldScene.h */,
+				3CA731001615927D00229819 /* GameScene.cpp */,
+				3CA731011615927D00229819 /* GameScene.h */,
+				3CA731041615928700229819 /* HomePageScene.cpp */,
+				3CA731051615928700229819 /* HomePageScene.h */,
 			);
 			name = scenes;
 			sourceTree = "<group>";
@@ -1709,6 +1721,14 @@
 			children = (
 			);
 			name = helper;
+			sourceTree = "<group>";
+		};
+		3CA73107161592BE00229819 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				3CA73108161592F600229819 /* constants.h */,
+			);
+			name = constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1985,6 +2005,8 @@
 				3C2896971607FFF500229248 /* CommunicationManager.cpp in Sources */,
 				3C2896981607FFF500229248 /* LocalStorageManager.cpp in Sources */,
 				3C2896991607FFF500229248 /* UserManager.cpp in Sources */,
+				3CA731021615927D00229819 /* GameScene.cpp in Sources */,
+				3CA731061615928700229819 /* HomePageScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
